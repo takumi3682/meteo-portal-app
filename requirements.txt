@@ -8,15 +8,12 @@ cfgrib>=0.9.10
 eccodes>=1.7.0
 netCDF4>=1.6.5
 metpy>=1.6.0
-matplotlib>=3.8.0, <3.10.0
-Cartopy>=0.23.0
+matplotlib>=3.8.0,<3.10.0
+cartopy>=0.23.0
 Pillow>=10.2.0
 requests>=2.31.0
 lxml
 plotly
-duckdb
-polars
 beautifulsoup4
-pyarrow
 matplotlib-fontja
 meteo_lib @ git+https://github.com/takumi3682/meteo_lib.git
