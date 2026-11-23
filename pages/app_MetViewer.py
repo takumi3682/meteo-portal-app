@@ -47,7 +47,7 @@ def setup_japanese_font() -> None:
     plt.rcParams["axes.unicode_minus"] = False
 
 
-setup_japanese_font()
+#setup_japanese_font()
 
 # ==============================================================================
 # ストレージ環境の自動判定（ローカル外付けSSD vs Streamlit Cloud）
