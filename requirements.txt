@@ -17,4 +17,6 @@ plotly
 beautifulsoup4
 matplotlib-fontja
 duckdb
+polars
+pyarrow
 meteo_lib @ git+https://github.com/takumi3682/meteo_lib.git
