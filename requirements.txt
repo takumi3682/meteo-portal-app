@@ -15,7 +15,7 @@ requests>=2.31.0
 lxml
 plotly
 beautifulsoup4
-matplotlib-fontja
+japanaize-matplotlib
 duckdb
 polars
 pyarrow
