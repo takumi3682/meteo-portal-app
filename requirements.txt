@@ -15,7 +15,7 @@ requests>=2.31.0
 lxml
 plotly
 beautifulsoup4
-japanaize-matplotlib
+japanize-matplotlib
 duckdb
 polars
 pyarrow
