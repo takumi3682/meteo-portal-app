@@ -1,0 +1,106 @@
+# ==========================================
+# 気象データ・キャッシュ・出力ファイル
+# ==========================================
+raw_grib/
+cache/
+data/
+outputs/
+output/
+*.bin
+*.grib2
+*.idx
+*.nc
+*.parquet
+*.png
+*.jpg
+*.svg
+*.pdf
+
+# ==========================================
+# Streamlit・環境変数（機密情報）
+# ==========================================
+.streamlit/secrets.toml
+.env
+
+# ==========================================
+# Python 仮想環境・キャッシュ・ビルド
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.uv/
+.pdm-python
+.pdm.toml
+.pdm-build/
+__pypackages__/
+
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ==========================================
+# Jupyter / テスト / リンター・型チェック
+# ==========================================
+.ipynb_checkpoints/
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+.ruff_cache/
+cython_debug/
+*.log
+
+# ==========================================
+# OS・エディタ・AIツール設定
+# ==========================================
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.vscode/
+.idea/
+.spyderproject
+.spyproject
+.ropeproject
+.cursorignore
+.cursorindexingignore
